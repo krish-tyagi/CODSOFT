@@ -1,0 +1,9 @@
+import random
+
+def get_computer_choice():
+    """Generates a random choice for the computer."""
+    return random.choice(['rock', 'paper', 'scissors'])
+
+def determine_winner(user_choice, computer_choice):
+    """Determines the winner of the round based on the rules of Rock, Paper, Scissors."""
+    if user_choice == computer_choice:
